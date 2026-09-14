@@ -1,0 +1,6 @@
+{
+    "files.readonlyFromPermissions": false,
+    "antigrav.agent.approvalMode": "auto",
+    "antigrav.agent.autoRunTerminal": true,
+    "antigrav.agent.autoApplyEdits": true
+}
