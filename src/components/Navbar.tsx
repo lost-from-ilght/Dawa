@@ -94,14 +94,21 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div
                 style={{
                   fontFamily: 'var(--font-brand)',
-                  fontSize: '1rem',
-                  fontWeight: 700,
+                  fontSize: '1.05rem',
+                  fontWeight: 800,
                   color: '#F8FAFC',
-                  letterSpacing: '0.04em',
+                  letterSpacing: '0.05em',
                   lineHeight: 1.15,
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.45rem',
                 }}
               >
-                MEHRTEAB & GETU
+                <span style={{ color: '#F8FAFC' }}>DAWA</span>
+                <span style={{ fontSize: '0.75rem', fontWeight: 400, color: 'rgba(255,255,255,0.3)' }}>|</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 600, color: '#CBD5E1', letterSpacing: '0.02em' }}>
+                  MEHRTEAB & GETU
+                </span>
               </div>
               <div
                 style={{
@@ -111,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   fontWeight: 600,
                 }}
               >
-                ADVOCATES LLP · ASSOCIATE JOURNAL
+                ADVOCATES LLP · ASSOCIATE PRACTICE JOURNAL
               </div>
             </div>
           </div>

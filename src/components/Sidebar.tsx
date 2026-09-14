@@ -124,11 +124,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 style={{
                   fontFamily: 'var(--font-brand)',
                   fontSize: '0.9rem',
-                  fontWeight: 600,
+                  fontWeight: 700,
                   color: '#F8FAFC',
+                  letterSpacing: '0.04em',
                 }}
               >
-                MLA NAVIGATION
+                DAWA · MLA NAVIGATION
               </span>
             </div>
             <button
